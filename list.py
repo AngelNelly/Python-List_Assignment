@@ -18,5 +18,5 @@ print(my_list)
 my_list.pop(8) # I used pop to remove 1000 from the list
 print(my_list)
 
-my_list.sort(reverse=True) # I used sort to sort the list in descending order, from 900 to 100
-print(my_list)
+my_list.sort(reverse=True) # I used sort to sort the list in descending order, from 900 to 100. If I used just "sort",
+print(my_list) #It will remain in ascending order so I decided to use "sort(reverse=True)" to sort it in descending order.
